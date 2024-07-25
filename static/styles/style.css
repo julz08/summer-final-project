@@ -1,3 +1,5 @@
+/* INDEX CSS GOES BELOW HERE*/
+
 #zhen-logo-green:hover{
     animation-name: colorpop;
     animation-duration: 1s;
@@ -60,4 +62,47 @@
     flex-direction: column;
     align-content: flex-end;
     width: 45%
+}
+
+
+/* ABOUT ME CSS GOES BELOW HERE*/
+#abt-me-name-prn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top-name-text{
+    color:#104C7A;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Prompt, sans-serif;
+    background-color:aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#abt-me-prn{
+    margin-top: 145px;
+    margin-left: 20px;
+    color:#104C7A;
+    font-size: 24px;
+    font-family: Prompt, sans-serif;
+    font-style:italic;
+}
+
+#top-img-container{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abt-me-top-img{
+    height: 250px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
