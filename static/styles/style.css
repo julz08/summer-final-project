@@ -1,10 +1,10 @@
 #homepage-top{
     font-family: Georgia;
-    font-style: italic;
     background-image: linear-gradient(#15522C, #CAF8D7);
 }
 #home-hello{
     font-size: 100px;
+    font-style: italic;
     font-weight: bold;
     padding-left: 5%;
     padding-top: 5%;
@@ -21,6 +21,31 @@
     color: rgb(244, 251, 242);
 }
 
-#welcome{
-    
+.basic-bg-font-style{
+    margin: 2.5%;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgb(244, 251, 242);
+    font-size: 30px;
+    font-family: Muli, sans-serif;
+    color: #0d3c1f;
+}
+
+#home-content{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#home-pages-list{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 45%
+}
+
+#home-intro{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 45%
 }
