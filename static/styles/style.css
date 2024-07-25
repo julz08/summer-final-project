@@ -1,7 +1,19 @@
+#zhen-logo-green:hover{
+    animation-name: colorpop;
+    animation-duration: 1s;
+}
+
+@keyframes colorpop{
+    0% {color:#0d3c1f}
+    50% {color:#87b197;}
+    100% {color:#0d3c1f}
+}
+
 #homepage-top{
     font-family: Georgia;
     background-image: linear-gradient(#15522C, #CAF8D7);
 }
+
 #home-hello{
     font-size: 100px;
     font-style: italic;
