@@ -106,3 +106,53 @@
     padding-right: 20px;
     padding-bottom: 20px;
 }
+
+#abt-me-info-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.basic-bg-font-style-blue{
+    padding: 50px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: Prompt, sans-serif;
+    color:#104C7A;
+}
+
+#abt-me-basics{
+    margin-right: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
+
+#abt-me-likes{
+    margin-left: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
+#abt-me-hobbies{
+    margin-right: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
+
+#abt-me-dislikes{
+    margin-left: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
+#abt-me-activities{
+    margin-right: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
+
+#abt-me-songs{
+    margin-left: 1%;
+    margin-bottom: 2.5%;
+    width: 49%;
+}
