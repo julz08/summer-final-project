@@ -7,7 +7,7 @@ def homepage():
     return render_template("index.html")
 
 @app.route('/about-me')
-def homepage():
+def aboutme():
     return render_template("about-me.html")
 
 if __name__ == '__main__':
