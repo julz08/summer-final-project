@@ -8,7 +8,7 @@ def homepage():
 
 @app.route('/about-me')
 def aboutme():
-    return render_template("wip.html")
+    return render_template("about-me.html")
 
 @app.route('/archive-vids')
 def archivevid():

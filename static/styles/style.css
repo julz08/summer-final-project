@@ -178,3 +178,56 @@
     margin-bottom: 2.5%;
     width: 49%;
 }
+
+/* WIP STYLES GO HERE */
+
+#wip{
+    background-color:#a6d5b7;
+    height: 100%;
+    width: 100%;
+}
+
+#wip-title{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 60px;
+    color:#1a452a;
+    font-family: Prompt, sans-serif;
+    background-color:#CAF8D7;
+    width: 1280px;
+    padding: 20px;
+    padding-left: 25px;
+    animation: blinker 0.8s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes blinker {
+    50% {opacity: 0.2;}
+  }
+
+.wip-text{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 32px;
+    color:#306b47;
+    font-family: Prompt, sans-serif;
+    animation: fadein 4.8s linear;
+}
+
+.wip-done-pages{
+    margin: 30px;
+    margin-left: 70px;
+    font-size: 32px;
+    color:#306b47;
+    font-family: Prompt, sans-serif;
+    animation: fadein 4.8s linear;
+}
+
+@keyframes fadein{
+    0% {opacity:0}
+    50% {opacity:0}
+    80% {opacity:1}
+    100% {opacity:1}
+}
