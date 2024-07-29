@@ -1,11 +1,11 @@
 /* INDEX CSS GOES BELOW HERE*/
 
 #zhen-logo-green:hover{
-    animation-name: colorpop;
+    animation-name: greencolorpop;
     animation-duration: 1s;
 }
 
-@keyframes colorpop{
+@keyframes greencolorpop{
     0% {color:#0d3c1f}
     50% {color:#87b197;}
     100% {color:#0d3c1f}
@@ -66,6 +66,17 @@
 
 
 /* ABOUT ME CSS GOES BELOW HERE*/
+#zhen-logo-blue:hover{
+    animation-name: bluecolorpop;
+    animation-duration: 1s;
+}
+
+@keyframes bluecolorpop{
+    0% {color:#104C7A}
+    50% {color:#b9cfdf;}
+    100% {color:#104C7A}
+}
+
 #abt-me-name-prn{
     display: flex;
     flex-wrap: wrap;
